@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/smart_navigation"
+    app:startDestination="@id/reserveFragment">
+
+    <fragment
+        android:id="@+id/reserveFragment"
+        android:name="com.example.smartboon.fragments.ReserveFragment"
+        android:label="fragment_reserve"
+        tools:layout="@layout/fragment_reserve" >
+        <action
+            android:id="@+id/action_reserveFragment_to_cancelFragment"
+            app:destination="@id/cancelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cancelFragment"
+        android:name="com.example.smartboon.fragments.CancelFragment"
+        android:label="fragment_cancel"
+        tools:layout="@layout/fragment_cancel" >
+        <action
+            android:id="@+id/action_cancelFragment_to_reserveFragment"
+            app:destination="@id/reserveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragmentSmart"
+        android:name="com.example.smartboon.fragments.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

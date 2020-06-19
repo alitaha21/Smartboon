@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Smart Boon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="login_welcome">Welcome, Here you login to your own personal account so that you would be able to reserve your daily meals. God bless.</string>
+    <string name="password">Password</string>
+    <string name="pyramids">Egypt\'s Giza Pyramids and the Sphinx</string>
+    <string name="about_menu">About</string>
+    <string name="about_description">This application is part of a final year engineering graduation project. It practically lets you reserve your daily meal, or even cancel it. The whole idea is to ease the order and cancel for our students, instead of them being forced to be there physically to be able to do that, the application enables them to order through the Internet.</string>
+    <string name="reserve_a_meal">Reserve a meal</string>
+    <string name="reserve_clarify">By clicking this button you reserve your meal.</string>
+    <string name="reserve_note">Please note that you have a specific time to order, it\'s being decided by the administration of the restaurant.</string>
+    <string name="cancel_text_view">By clicking this button you cancel your reservation.</string>
+    <string name="cancel_reservation">Cancel reservation</string>
+    <string name="cancel_note">Please note that you have a specific time in which you can cancel your reservation.</string>
+    <string name="cancel_image_content">An image containing text. Don\'t forget to have a good time.</string>
+    <string name="error_login_message">The Username or Password you entered is not correct!</string>
+    <string name="email_address">Email Address</string>
+    <string name="welcome_to_login_page">Welcome to Login page.</string>
+    <string name="logout">Logout</string>
+    <string name="just_enter_a_numeric_value">Just enter a numeric value.</string>
+</resources>
